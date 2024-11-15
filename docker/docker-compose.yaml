@@ -281,7 +281,7 @@ services:
 
   # Frontend web application.
   web:
-    image: gdsilvia/newfrontend:web2
+    image: gdsilvia/newfrontend:web10
     restart: always
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
